@@ -8,7 +8,7 @@ const SinglePage = () => {
           slug: "about-app",
           title: "About the App",
           description:
-          "This app was created by myself with the help of a React tutorial. It is a To-Do app which has the ability to add, edit and delete To-Do items. Through this project, I furthered my understanding of React and practiced concepts such as: Persisting data in browser local storage, using React Hooks, using SVG icons and adding a hamburger menu.",
+          "This app was created by me with the help of a React tutorial. It is a To-Do app which has the ability to add, edit and delete To-Do items. Through this project, I furthered my understanding of React and practiced concepts such as: Persisting data in browser local storage, using React Hooks, using SVG icons and adding a hamburger menu.",
         },
       ]
     const { slug } = useParams()
