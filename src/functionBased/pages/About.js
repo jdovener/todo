@@ -7,8 +7,8 @@ const About = () => {
     return (
         <div className="about__content">
           <ul className="about__list">
-            <li>
-              <Link to={`${url}/about-app`}>About App</Link>
+            <li className="main__content">
+              <Link to={`${url}/about-app`}>Click here for info</Link>
             </li>
           </ul>
           <Route path={`${path}/:slug`}>

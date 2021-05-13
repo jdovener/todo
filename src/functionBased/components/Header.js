@@ -9,6 +9,7 @@ const Header = () => {
   return (
     <header style={headerStyle}>
       <h1
+        className="headerbox"
         style={{
           fontSize: "6em",
           fontWeight: "600",

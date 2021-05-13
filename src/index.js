@@ -9,10 +9,12 @@ import TodoContainer from "./functionBased/components/TodoContainer"
 import "./functionBased/App.css"
 
 ReactDOM.render(
+    <div className="jimmy">
     <React.StrictMode>
         <Router basename={process.env.PUBLIC_URL}>
             <TodoContainer />
         </Router>  
-    </React.StrictMode>,
+    </React.StrictMode>
+    </div>,
     document.getElementById("root")
 )
